@@ -1,6 +1,6 @@
 import express from "express";
-import "src/db";
-import authRouter from "./routes/auth";
+import "@/db";
+import authRouter from "@/routes/auth";
 
 const app = express();
 
